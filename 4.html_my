@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Rude Kity</title>
+  <meta name="robots" content="index,follow,all">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="core.css?v=2">
+</head>
+
+<body>
+<div id="wrapper">
+	<a class="logo" href="index.html"><span>Rude kity!</span></a>
+	<div id="headerTop">Strona wiernych fanów lisków chytrusków.</div>
+	
+	<div id="sidebar">
+		<ul>
+			<li><a href="1.html">Środowisko naturalne</a></li>
+			<li><a href="2.html">Rozmnażanie</a></li>
+			<li><a href="3.html">Sposób odżywiania</a></li>
+			<li><a href="4.html">Galeria obrazów</a></li>
+			<li><a href="5.html">Opis ogólny</a></li>
+			<li><a href="6.html">Zachowanie zwierzęcia</a></li>
+		</ul>
+	</div>
+	
+	<div id="content">
+		<div id="padd">
+			<h2>&mdash; Sposob odzywiania</h2>
+			<p>Lis, lis pospolity, lis rudy (Vulpes vulpes) – gatunek drapieżnego ssaka z rodziny psowatych (Canidae). Występuje na półkuli północnej, w części Azji, w Europie, Ameryce Północnej i północnej Afryce. W XIX wieku został wprowadzony do Australii, gdzie jest obecnie jednym z największych szkodników.</p>
+		</div>
+	</div>
+	
+	<div>
+		<form enctype="multipart/form-data" action="upload.php" method="POST">
+		<input type="hidden" name="MAX_FILE_SIZE" value="50000" />
+		<input name="file_name" type="file" />
+		<textarea rows="4" cols="20" name="file_desc">
+		</textarea>
+		<input type="submit" value="Wyślij plik" />
+		</form>
+	</div> 
+<div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="core.js"></script>
+</body>
+</html>

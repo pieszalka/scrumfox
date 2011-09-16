@@ -31,11 +31,11 @@
 		</div>
 	</div>
 	
-	<div>
+	<div id="add">
 		<form enctype="multipart/form-data" action="upload.php" method="POST">
 		<input type="hidden" name="MAX_FILE_SIZE" value="50000" />
-		<input name="file_name" type="file" />
-		<textarea rows="4" cols="20" name="file_desc">
+		<input name="file_name" type="file" /><br />
+		<textarea rows="4" cols="20" name="file_desc"><br />
 		</textarea>
 		<input type="submit" value="Wyślij plik" />
 		</form>

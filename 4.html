@@ -34,6 +34,22 @@
 			<a rel="group" href="img/galeria/4.jpg" title="Skalne oblicze"><img src="img/galeria/4s.jpg" alt="" /><span>Skalne oblicze</span></a>
 			<a rel="group" href="img/galeria/5.jpg" title="Zimowy lis"><img src="img/galeria/5s.jpg" alt="" /><span>Zimowy lis</span></a>
 		</div>
+	
+		<div id="add">
+			<form enctype="multipart/form-data" action="upload.php" method="POST">
+				<table>
+					<tr>
+						<td>Wybierz plik: </td><td><input name="file_name" type="file" /></td>
+					</tr>
+					<tr>
+						<td>Wpisz opis: </td><td><textarea rows="4" cols="20" name="file_desc" style="width:300px;"></textarea></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="submit" value="Wyślij plik" style="float:right;" /></td>
+					</tr>
+				<input type="hidden" name="MAX_FILE_SIZE" value="50000" />
+			</form>
+		</div>
 	</div>
 <div>
 

@@ -222,3 +222,21 @@ h2.indexHead {
   text-align: center;
   padding: 3px 0;
 }
+
+#add {
+  padding: 20px 0 0 0;
+  border-top: 1px dashed rgba(0,0,0,0.2);
+  float: left;
+  width: 400px;
+  margin: 20px auto 0 155px;
+}
+
+#add td {
+  vertical-align: middle;
+  padding: 5px 5px 0 0;
+}
+
+#add textarea {
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
